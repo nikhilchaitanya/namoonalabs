@@ -4,13 +4,13 @@ var mail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'nikhilc.freelance@gmail.com',
-    pass: 'zddmfhobfeeqlwcu'
+    pass: 'xxxxxxxxxx'
   }
 });
 
 var mailOptions = {
     from: 'nikhilc.freelance@gmail.com',
-    to: 'aravind99.g@gmail.com',
+    to: 'nikhilc.freelance@gmail.com',
     subject: 'Thank you for registering for 3D Printing Internship',
     html: '<h3>Dear Maker Geek !</h3><p>Thank you for registering for 3D Printing Virtual Internship,</p><p>Your 10-character Registration Key for future reference:</p><p>LKLhhV5NSP</p><p>Please find the details of the internship attached in the 2 PDFs.</p><p></p><p>We will send the course material to your email in a week\'s time.</p><p>With Best Regards, Namoona 3D Labs, Visalakshinagar, Visakhapatnam 530043</p><p>Email: nikhilc.freelance@gmail.com</p><p>https://www.linkedin.com/company/namoonalabs</p>',
    attachments: [{
