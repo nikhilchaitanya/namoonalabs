@@ -1,17 +1,12 @@
 var json = {
     "jsonData": [
         {
-            "Email": "nikhilchaitanya01@gmail.com"
-        },
-        {
-            "Email": "nikhilc.freelance@gmail.com"
+            "Email": "nikhilc.freelance@namoonagroup.com"
         },
         {
             "Email": "designforspeed@gmail.com"
         },
-        {
-            "Email": "thelightray001@gmail.com"
-        } 
+        
     ]
 }
 
